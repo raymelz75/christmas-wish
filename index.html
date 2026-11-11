@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Merry Christmas, Amma 🎄</title>
+<meta name="description" content="A Christmas surprise for Amma, with love from Arun. Tap to open your gift.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#7a0f24">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Merry Christmas, Amma 🎄">
+<meta property="og:description" content="A Christmas surprise for Amma, with love from Arun. Tap to open your gift.">
+<meta property="og:url" content="https://raymelz75.github.io/christmas-wish/">
+<meta property="og:image" content="https://raymelz75.github.io/christmas-wish/images/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%8E%84%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800&family=Catamaran:wght@600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Poppins,system-ui,sans-serif;color:#fff;background:var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased;line-height:1.6}
+img,video,svg{display:block;max-width:100%}
+button{font-family:inherit}
+.script{font-family:"Great Vibes",cursive;font-weight:400;letter-spacing:0}
+.ta{font-family:Catamaran,"Noto Sans Tamil","Nirmala UI",sans-serif}
+.wrap{max-width:560px;margin:0 auto;padding:0 22px;position:relative;z-index:2}
+section{position:relative;padding:84px 0;overflow:hidden}
+.sec{font-size:clamp(1.65rem,6.4vw,2.15rem);line-height:1.2;text-align:center;font-weight:700;margin-bottom:8px}
+.sub{text-align:center;opacity:.82;margin-bottom:32px}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+#intro{position:fixed;inset:0;z-index:50;display:grid;place-items:center;text-align:center;padding:30px;cursor:pointer;transition:opacity 1s ease,visibility 1s}
+#intro.gone{opacity:0;visibility:hidden}
+.tap{display:inline-block;margin-top:26px;padding:12px 22px;border-radius:999px;font-weight:600;font-size:.95rem;animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.06)}}
+.music-btn{position:fixed;top:14px;right:14px;z-index:40;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.35);color:#fff;font-size:1.15rem;cursor:pointer;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.music-btn.on{animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.demo-bar{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);z-index:45;background:rgba(8,12,34,.88);color:#fff;text-decoration:none;font-size:.82rem;padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.28);white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.35);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.demo-bar b{color:#ffd166}
+.letter{position:relative;color:#3b2a1a;background:#fffaf0;border-radius:18px;padding:30px 26px 34px;box-shadow:0 26px 60px rgba(0,0,0,.35);cursor:pointer}
+.letter .typed{white-space:pre-wrap;font-size:1.02rem;min-height:12em}
+.letter .typed::after{content:"|";animation:blink 1s steps(1) infinite;opacity:.6}
+.letter.done .typed::after{display:none}
+@keyframes blink{50%{opacity:0}}
+.letter small{display:block;margin-top:14px;font-size:.78rem;opacity:.55;text-align:right}
+.letter.done small{display:none}
+.polaroids{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.pol{background:#fff;padding:10px 10px 12px;border-radius:6px;box-shadow:0 18px 40px rgba(0,0,0,.35);color:#2b2b2b;text-align:center;cursor:zoom-in;transition:transform .35s}
+.pol:nth-child(4n+1){transform:rotate(-3deg)}.pol:nth-child(4n+2){transform:rotate(2.5deg)}.pol:nth-child(4n+3){transform:rotate(2deg)}.pol:nth-child(4n){transform:rotate(-2.5deg)}
+.pol:hover{transform:rotate(0) scale(1.03)}
+.pol img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:3px}
+.pol figcaption{font-family:"Great Vibes",cursive;font-size:1.4rem;line-height:1.2;margin-top:8px}
+.lb{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.9);display:none;place-items:center;padding:20px;cursor:zoom-out}
+.lb.on{display:grid}.lb img{max-height:86vh;border-radius:8px}
+.hint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);font-size:.8rem;opacity:.8;letter-spacing:.14em;text-transform:uppercase;animation:bob 2s ease-in-out infinite;z-index:3}
+@keyframes bob{50%{transform:translate(-50%,8px)}}
+.fx{position:fixed;inset:0;pointer-events:none;z-index:30;width:100%;height:100%}
+.rain{position:fixed;inset:0;pointer-events:none;z-index:55;overflow:hidden}
+.rain i{position:absolute;top:-40px;font-style:normal;animation:drop linear forwards}
+@keyframes drop{to{transform:translateY(110vh) rotate(260deg)}}
+.big-btn{display:inline-block;border:0;cursor:pointer;font-weight:700;font-size:1.05rem;padding:15px 26px;border-radius:999px;box-shadow:0 14px 30px rgba(0,0,0,.3);transition:transform .2s}
+.big-btn:active{transform:scale(.96)}
+.foot{text-align:center;font-size:.85rem;opacity:.75;padding:30px 20px 90px}
+.foot a{color:inherit}
+.fw-burst{transform-box:fill-box;transform-origin:center;animation:fwBurst 2.6s ease-out infinite;opacity:0}
+@keyframes fwBurst{0%{transform:scale(.15);opacity:0}15%{opacity:1}75%{transform:scale(1);opacity:.9}100%{transform:scale(1.12);opacity:0}}
+.fw-tw{animation:fwTw 1.6s ease-in-out infinite alternate}@keyframes fwTw{from{opacity:.25}to{opacity:1}}
+.fw-glow{animation:fwGlow 2.4s ease-in-out infinite}@keyframes fwGlow{50%{opacity:.7}}
+.fw-snow{animation-name:fwSnow;animation-timing-function:linear;animation-iteration-count:infinite}@keyframes fwSnow{to{transform:translateY(232px)}}
+.fw-bub{animation:fwBub 2.4s ease-in infinite}@keyframes fwBub{from{transform:translateY(0);opacity:1}to{transform:translateY(-46px);opacity:0}}
+.fw-flame{transform-box:fill-box;transform-origin:bottom;animation:fwFlame .45s ease-in-out infinite alternate}@keyframes fwFlame{from{transform:scaleY(.82)}to{transform:scaleY(1.12)}}
+.fw-sway{transform-box:fill-box;transform-origin:bottom;animation:fwSway 3.2s ease-in-out infinite alternate}@keyframes fwSway{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.fw-sun{transform-box:fill-box;transform-origin:center;animation:fwSun 4s ease-in-out infinite alternate}@keyframes fwSun{to{transform:scale(1.08)}}
+.art svg{width:100%;height:auto;border-radius:22px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+@media (max-width:400px){.demo-bar .long{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.fw-burst{opacity:1}}
+:root{--bg:#3b0611;--gold:#f5c76b}
+#intro{background:radial-gradient(ellipse at 50% 30%,#8e1830,#3b0611 70%)}
+#intro .small{letter-spacing:.2em;text-transform:uppercase;font-size:.8rem;opacity:.85}
+#intro .name{font-size:4.2rem;line-height:1.1;color:var(--gold);margin:4px 0 26px}
+.gift{position:relative;width:150px;height:150px;margin:0 auto;animation:shake 2.4s ease-in-out infinite}
+@keyframes shake{0%,70%,100%{transform:rotate(0)}74%{transform:rotate(-7deg)}78%{transform:rotate(7deg)}82%{transform:rotate(-5deg)}86%{transform:rotate(4deg)}}
+.gift .box{position:absolute;left:12px;right:12px;bottom:0;height:100px;background:#c8102e;border-radius:6px;box-shadow:inset 0 -10px 0 rgba(0,0,0,.12)}
+.gift .lid{position:absolute;left:4px;right:4px;top:22px;height:34px;background:#e0233f;border-radius:6px;transition:transform .8s cubic-bezier(.2,.7,.2,1),opacity .8s}
+.gift .rib-v{position:absolute;left:50%;margin-left:-11px;width:22px;top:22px;bottom:0;background:var(--gold)}
+.gift .bow{position:absolute;left:50%;top:0;width:70px;height:34px;margin-left:-35px;transition:transform .8s cubic-bezier(.2,.7,.2,1),opacity .8s}
+.gift .bow:before,.gift .bow:after{content:"";position:absolute;top:4px;width:32px;height:26px;border:7px solid var(--gold);border-radius:50% 50% 10% 50%}
+.gift .bow:before{left:0;transform:rotate(-20deg)}.gift .bow:after{right:0;transform:scaleX(-1) rotate(-20deg)}
+#intro.open .lid,#intro.open .bow{transform:translateY(-160px) rotate(-25deg);opacity:0}
+#intro .tap{background:var(--gold);color:#3b0611}
+#hero{min-height:100svh;display:grid;align-items:end;padding:0 0 92px;text-align:center}
+#hero video,#hero .shade{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#hero .shade{background:linear-gradient(180deg,rgba(59,6,17,.2) 0%,rgba(59,6,17,.35) 45%,rgba(59,6,17,.94) 88%)}
+#hero h1{font-size:clamp(3.6rem,15vw,5.2rem);line-height:1;color:var(--gold);text-shadow:0 4px 30px rgba(0,0,0,.4)}
+#hero .who{font-size:clamp(2.3rem,10vw,3rem);font-weight:800;margin-top:-4px}
+#hero .ta{font-size:1.15rem;font-weight:700;margin-top:10px;color:#ffe6a8}
+#hero .from{opacity:.85;margin-top:6px}
+#letter{background:linear-gradient(180deg,#3b0611,#5c0b1e)}
+#memories{background:#5c0b1e}
+#thanks{background:linear-gradient(180deg,#5c0b1e,#1f4d2b)}
+.tags{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.tag{position:relative;background:#fffaf0;color:#3b2a1a;border-radius:14px 14px 14px 14px;padding:22px 14px 16px;text-align:center;font-weight:600;box-shadow:0 14px 30px rgba(0,0,0,.3);transform-origin:top center;animation:swing 3.2s ease-in-out infinite alternate}
+.tag:nth-child(2n){animation-delay:.8s}.tag:nth-child(3){animation-delay:1.4s}
+.tag:before{content:"";position:absolute;top:-10px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(245,199,107,.35)}
+.tag b{display:block;font-size:1.9rem;margin-bottom:4px}
+@keyframes swing{from{transform:rotate(-2.5deg)}to{transform:rotate(2.5deg)}}
+#final{background:#1f4d2b;text-align:center}
+#final h2{font-size:clamp(3rem,13vw,4.2rem);line-height:1.05;color:var(--gold);margin:28px 0 6px}
+#final p.big{font-size:1.3rem;font-weight:700}
+#final .big-btn{background:var(--gold);color:#3b0611;margin-top:26px}
+#final .wa{display:inline-block;margin-top:16px;color:#fff;opacity:.9}
+#final .sent{height:30px;margin-top:14px;font-weight:700;color:#ffe6a8}
+</style>
+</head>
+<body>
+<canvas id="snow" class="fx" aria-hidden="true"></canvas>
+<div id="intro" role="button" tabindex="0" aria-label="Open your Christmas gift">
+  <div>
+    <p class="small">A Christmas gift for</p>
+    <p class="name script">Amma</p>
+    <div class="gift" aria-hidden="true"><div class="box"></div><div class="lid"></div><div class="rib-v"></div><div class="bow"></div></div>
+    <span class="tap">🎁 Tap the gift to open</span>
+  </div>
+</div>
+<button class="music-btn" id="musicBtn" aria-label="Play or pause music">♪</button>
+<section id="hero">
+  <video autoplay muted loop playsinline poster="images/hero-poster.jpg"><source src="video/hero.mp4" type="video/mp4"></video>
+  <div class="shade"></div>
+  <div class="wrap">
+    <h1 class="script">Merry Christmas</h1>
+    <p class="who">Amma 🎄</p>
+    <p class="ta">இனிய கிறிஸ்துமஸ் நல்வாழ்த்துக்கள், அம்மா!</p>
+    <p class="from">With all my love, from Arun</p>
+  </div>
+  <span class="hint">Scroll ↓</span>
+</section>
+<section id="letter"><div class="wrap">
+  <h2 class="sec rv">A little letter for you</h2>
+  <p class="sub rv">From my heart to yours</p>
+  <div class="letter" data-text="Dear Amma,&#10;&#10;Every Christmas, you made our small home the brightest place in the world. The star on the tree, the smell of your plum cake, and your midnight prayers for all of us.&#10;&#10;This year, I just want to say thank you. For every sacrifice you never talked about, and every hug when I needed it most.&#10;&#10;Merry Christmas, Amma. You are my biggest gift. 🎄&#10;&#10;With love,&#10;Arun"><p class="typed"></p><small>Tap to read it all</small></div>
+</div></section>
+<section id="memories"><div class="wrap">
+  <h2 class="sec rv">Our Christmas memories</h2>
+  <p class="sub rv">Tap a photo to see it bigger</p>
+  <div class="polaroids"><figure class="pol rv"><img src="images/amma-1.webp" alt="Amma hugging her son" width="640" height="800" loading="lazy"><figcaption>Your hugs 🤗</figcaption></figure><figure class="pol rv"><img src="images/amma-2.webp" alt="Amma smiling with a little child" width="640" height="800" loading="lazy"><figcaption>Always smiling 😊</figcaption></figure><figure class="pol rv"><img src="images/xmas-1.webp" alt="Christmas gift under the tree" width="640" height="800" loading="lazy"><figcaption>Gifts under our tree 🎁</figcaption></figure><figure class="pol rv"><img src="images/xmas-2.webp" alt="Presents beside the Christmas tree" width="640" height="800" loading="lazy"><figcaption>Christmas Eve ✨</figcaption></figure></div>
+</div></section>
+<section id="thanks"><div class="wrap">
+  <h2 class="sec rv">What I'm thankful for this Christmas</h2>
+  <p class="sub rv">All of it is you, Amma</p>
+  <div class="tags">
+    <div class="tag rv"><b>🙏</b>Your prayers for me</div>
+    <div class="tag rv"><b>🎂</b>Your plum cake</div>
+    <div class="tag rv"><b>😅</b>Your patience with me</div>
+    <div class="tag rv"><b>❤️</b>Your warm smile</div>
+  </div>
+</div></section>
+<section id="final"><div class="wrap">
+  <div class="art rv"><svg viewBox="0 0 360 220" role="img" aria-label="Christmas wish illustration: a twinkling Christmas tree with gifts and falling snow">
+  <defs><linearGradient id="xBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5c0b1e"/><stop offset="1" stop-color="#9d1730"/></linearGradient></defs>
+  <rect width="360" height="220" fill="url(#xBg)"/>
+  <circle cx="300" cy="44" r="18" fill="#fff4d6" opacity=".9"/><circle cx="308" cy="38" r="16" fill="#7a1024"/>
+  <path d="M0 196 Q90 178 180 192 T360 186 V220 H0z" fill="#fff"/>
+  <rect x="172" y="178" width="16" height="22" fill="#6b3b1f"/>
+  <path d="M180 34 L132 104 H228z" fill="#1f7a3a"/><path d="M180 64 L120 140 H240z" fill="#1a6b33"/><path d="M180 98 L106 182 H254z" fill="#155c2b"/>
+  <path d="M146 104 Q180 118 214 100 M132 140 Q180 156 228 136 M118 178 Q180 194 244 174" fill="none" stroke="#ffd166" stroke-width="2" opacity=".7"/>
+  <circle class="fw-tw" cx="180" cy="62" r="4" fill="#ffd166" style="animation-delay:0s"/><circle class="fw-tw" cx="160" cy="88" r="4" fill="#ff5a7a" style="animation-delay:0.2s"/><circle class="fw-tw" cx="200" cy="92" r="4" fill="#7fd4ff" style="animation-delay:0.5s"/><circle class="fw-tw" cx="150" cy="120" r="4" fill="#ffffff" style="animation-delay:0.7s"/><circle class="fw-tw" cx="182" cy="126" r="4" fill="#ffd166" style="animation-delay:0.9s"/><circle class="fw-tw" cx="212" cy="118" r="4" fill="#ff5a7a" style="animation-delay:1.2s"/><circle class="fw-tw" cx="138" cy="156" r="4" fill="#7fd4ff" style="animation-delay:1.4s"/><circle class="fw-tw" cx="170" cy="162" r="4" fill="#ffffff" style="animation-delay:1.6s"/><circle class="fw-tw" cx="204" cy="158" r="4" fill="#ffd166" style="animation-delay:1.8s"/><circle class="fw-tw" cx="228" cy="150" r="4" fill="#ff5a7a" style="animation-delay:2.1s"/>
+  <path class="fw-glow" d="M180 16l5.3 11 12 1.6-8.8 8.3 2.2 11.9L180 43l-10.7 5.8 2.2-11.9-8.8-8.3 12-1.6z" fill="#ffd166"/>
+  <rect x="92" y="170" width="34" height="28" rx="3" fill="#2b6fd6"/><rect x="106" y="170" width="6" height="28" fill="#ffd166"/><rect x="92" y="180" width="34" height="5" fill="#ffd166"/>
+  <rect x="236" y="176" width="30" height="22" rx="3" fill="#ffd166"/><rect x="248" y="176" width="6" height="22" fill="#d6304f"/><rect x="236" y="184" width="30" height="5" fill="#d6304f"/>
+  <circle class="fw-snow" cx="248.7" cy="-6" r="2" fill="#fff" style="animation-duration:7.3s;animation-delay:-2.9s"/><circle class="fw-snow" cx="316.4" cy="-6" r="2.4" fill="#fff" style="animation-duration:6s;animation-delay:-1.8s"/><circle class="fw-snow" cx="36.2" cy="-6" r="3" fill="#fff" style="animation-duration:7.5s;animation-delay:-2.1s"/><circle class="fw-snow" cx="272.7" cy="-6" r="2.1" fill="#fff" style="animation-duration:7.4s;animation-delay:-3.5s"/><circle class="fw-snow" cx="0.3" cy="-6" r="1.4" fill="#fff" style="animation-duration:4.1s;animation-delay:-4.5s"/><circle class="fw-snow" cx="106.4" cy="-6" r="3" fill="#fff" style="animation-duration:5.3s;animation-delay:-5.1s"/><circle class="fw-snow" cx="356.3" cy="-6" r="2.4" fill="#fff" style="animation-duration:7s;animation-delay:-1.4s"/><circle class="fw-snow" cx="235.3" cy="-6" r="2.4" fill="#fff" style="animation-duration:5s;animation-delay:-2.1s"/><circle class="fw-snow" cx="179" cy="-6" r="2.6" fill="#fff" style="animation-duration:5.8s;animation-delay:-2.4s"/><circle class="fw-snow" cx="176.8" cy="-6" r="2.4" fill="#fff" style="animation-duration:4.5s;animation-delay:-5s"/><circle class="fw-snow" cx="293.9" cy="-6" r="2.4" fill="#fff" style="animation-duration:6.2s;animation-delay:-1.7s"/><circle class="fw-snow" cx="278.4" cy="-6" r="2.1" fill="#fff" style="animation-duration:4.4s;animation-delay:-4.6s"/><circle class="fw-snow" cx="139.1" cy="-6" r="1.8" fill="#fff" style="animation-duration:6s;animation-delay:-7.4s"/><circle class="fw-snow" cx="141.8" cy="-6" r="1.7" fill="#fff" style="animation-duration:7.4s;animation-delay:-6.7s"/><circle class="fw-snow" cx="261.5" cy="-6" r="1.9" fill="#fff" style="animation-duration:5.1s;animation-delay:-1.9s"/><circle class="fw-snow" cx="112.4" cy="-6" r="3.2" fill="#fff" style="animation-duration:6.8s;animation-delay:-4.5s"/><circle class="fw-snow" cx="152" cy="-6" r="2.4" fill="#fff" style="animation-duration:5.8s;animation-delay:-5.9s"/><circle class="fw-snow" cx="5" cy="-6" r="3" fill="#fff" style="animation-duration:7.1s;animation-delay:-0.1s"/><circle class="fw-snow" cx="282.1" cy="-6" r="2.4" fill="#fff" style="animation-duration:6.5s;animation-delay:-0.1s"/><circle class="fw-snow" cx="304.1" cy="-6" r="3.4" fill="#fff" style="animation-duration:7.6s;animation-delay:-2s"/><circle class="fw-snow" cx="60.5" cy="-6" r="2.1" fill="#fff" style="animation-duration:5.9s;animation-delay:-8s"/><circle class="fw-snow" cx="270.5" cy="-6" r="2.3" fill="#fff" style="animation-duration:4.7s;animation-delay:-4.5s"/>
+</svg></div>
+  <h2 class="script rv">Merry Christmas</h2>
+  <p class="big rv">and a Happy New Year, Amma! ❤️</p>
+  <button class="big-btn rv" id="hug">Send Arun a hug back 🤗</button>
+  <p class="sent" id="sent" aria-live="polite"></p>
+  <a class="wa" href="https://wa.me/?text=Merry%20Christmas%2C%20Arun!%20%F0%9F%8E%84%20Thank%20you%20for%20my%20beautiful%20wish%20%E2%9D%A4%EF%B8%8F" target="_blank" rel="noopener">Reply on WhatsApp →</a>
+</div></section>
+<p class="foot">Made with ❤️ by Arun, for Amma.<br>A demo wish website by <a href="https://raymelz.com/new-year-christmas-pongal-wishes/?utm_source=demo&utm_medium=wish&utm_campaign=festival&utm_content=christmas" target="_blank" rel="noopener">Raymelz</a></p>
+<a class="demo-bar" href="https://raymelz.com/new-year-christmas-pongal-wishes/?utm_source=demo&utm_medium=wish&utm_campaign=festival&utm_content=christmas" target="_blank" rel="noopener">✨ Demo by <b>Raymelz</b><span class="long"> · Make one for your Amma</span>, from ₹199 →</a>
+<audio id="song" src="music/song.mp3" preload="none" loop></audio>
+<div class="lb" role="dialog" aria-label="Photo"><img alt=""></div>
+<script>
+var audio = document.getElementById("song"), mb = document.getElementById("musicBtn");
+function playMusic() { if (!audio) return; audio.volume = 0.7; var p = audio.play(); if (p && p.then) p.then(function () { mb.classList.add("on"); mb.textContent = "♫"; }).catch(function () {}); }
+if (mb) mb.addEventListener("click", function () { if (audio.paused) playMusic(); else { audio.pause(); mb.classList.remove("on"); mb.textContent = "🔇"; } });
+function typeIt(box) {
+  if (box.getAttribute("data-started")) return; box.setAttribute("data-started", "1");
+  var out = box.querySelector(".typed"), text = box.getAttribute("data-text"), i = 0;
+  var t = box._t = setInterval(function () { i++; out.textContent = text.slice(0, i); if (i >= text.length) { clearInterval(t); box.classList.add("done"); } }, 32);
+  box.addEventListener("click", function () { clearInterval(t); out.textContent = box.getAttribute("data-text"); box.classList.add("done"); });
+}
+var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (!e.isIntersecting) return; e.target.classList.add("in"); if (e.target.hasAttribute("data-text")) typeIt(e.target); io.unobserve(e.target); }); }, { threshold: 0.2 });
+document.querySelectorAll(".rv, .letter").forEach(function (el) { io.observe(el); });
+var lb = document.querySelector(".lb");
+document.querySelectorAll(".pol").forEach(function (p) { p.addEventListener("click", function () { lb.querySelector("img").src = p.querySelector("img").src; lb.classList.add("on"); }); });
+if (lb) lb.addEventListener("click", function () { lb.classList.remove("on"); });
+function rain(chars, n, ms) {
+  var box = document.createElement("div"); box.className = "rain"; document.body.appendChild(box);
+  for (var k = 0; k < n; k++) { var i = document.createElement("i"); i.textContent = chars[Math.floor(Math.random() * chars.length)];
+    i.style.left = Math.random() * 100 + "vw"; i.style.fontSize = (18 + Math.random() * 22) + "px";
+    i.style.animationDuration = (2.6 + Math.random() * 2.4) + "s"; i.style.animationDelay = Math.random() * 1.4 + "s"; box.appendChild(i); }
+  setTimeout(function () { box.remove(); }, ms || 6500);
+}
+(function () {
+  var c = document.getElementById("snow"), x = c.getContext("2d"), f = [], W, H, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  function size() { W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; x.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  size(); addEventListener("resize", size);
+  for (var i = 0; i < 70; i++) f.push({ x: Math.random() * W, y: Math.random() * H, r: 1 + Math.random() * 2.6, s: 0.4 + Math.random() * 1.1, d: Math.random() * 6.28 });
+  (function tick() { requestAnimationFrame(tick); x.clearRect(0, 0, W, H); x.fillStyle = "rgba(255,255,255,0.85)";
+    f.forEach(function (p) { p.y += p.s; p.d += 0.01; p.x += Math.sin(p.d) * 0.4; if (p.y > H + 5) { p.y = -5; p.x = Math.random() * W; } x.beginPath(); x.arc(p.x, p.y, p.r, 0, 6.283); x.fill(); }); })();
+})();
+var intro = document.getElementById("intro");
+function openGift() { if (intro.classList.contains("open")) return; intro.classList.add("open"); playMusic(); rain(["✨", "⭐", "❄️"], 26, 4000); setTimeout(function () { intro.classList.add("gone"); }, 900); }
+intro.addEventListener("click", openGift);
+intro.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") openGift(); });
+document.getElementById("hug").addEventListener("click", function () { rain(["❤️", "🤗", "💖", "🎄"], 34); document.getElementById("sent").textContent = "Hug sent to Arun! ❤️"; });</script>
+</body>
+</html>
